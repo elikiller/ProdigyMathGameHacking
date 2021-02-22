@@ -25,7 +25,7 @@ for (i = 0; i < petdata.pet.length; i++) {
         ID: petdata.pet[i].ID,
         catchDate: Date.now(),
         levelCaught: 1,
-        Level: 1e+69,
+        Level: 6,000,
         foreignSpells: [petdata.pet[i].data.foreignSpellPools[0][0], petdata.pet[i].data.foreignSpellPools[1][0]]
     }
     playerdata.pets.push(pet)
